@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^5.15.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
