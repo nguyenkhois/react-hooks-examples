@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import useCheckEvenNumber from './logic';
 
 export function RandomNumber() {
     const [randomNumber, setNumber] = useState(0);
     const isEven = useCheckEvenNumber(randomNumber);
+
+    useEffect(() => {}, [randomNumber]);
 
     function handleNewRandomNumber() {
         // Get a random number is between 0 - 10
