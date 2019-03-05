@@ -10,9 +10,14 @@ class App extends Component {
     render() {
         return (
             <React.Fragment>
+                <h3>The basic React Hooks</h3>
                 <Count />
+
+                <h3>The custom React Hooks</h3>
                 <NumberStatus />
                 <RandomNumber />
+
+                <p><i>Tip!: Open the web browser console to view more results.</i></p>
             </React.Fragment>
         );
     }

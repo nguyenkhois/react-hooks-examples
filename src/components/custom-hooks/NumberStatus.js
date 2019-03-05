@@ -7,13 +7,14 @@ function NumberStatus() {
 
     useEffect(
         () => {
-            console.log("custom-hooks.js -> %s", count);
+            console.log("custom-hooks -> %s", count);
         },
         [count] // Only re-run the effect if count changes
     );
 
     return (
         <div>
+            <h4>Component 1:</h4>
             <p>{count} is an even number? {isEven ? 'yes' : 'no'}</p>
             <button onClick={() => setCount(count + 1)}>
                 Check even

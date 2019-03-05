@@ -12,6 +12,7 @@ export function RandomNumber() {
 
     return (
         <div>
+            <h4>Component 2:</h4>
             <p>Random number: {randomNumber}</p>
             <p>Is {randomNumber} an even number? {isEven ? 'yes' : 'no'}</p>
             <button onClick={() => handleNewRandomNumber()}>
